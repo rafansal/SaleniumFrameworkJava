@@ -12,16 +12,15 @@ public class GoogleSearchPageTest {
 	
 	static WebDriver driver = null;
 	
-	@BeforeTest
+//	@BeforeTest
 	public static void Setup() {
 		System.out.println("Test init started ");
 		String projectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath+"\\drivers\\chromediver\\chromedriver.exe");
 		//driver initialized
 		driver = new ChromeDriver();
-		googleSearchTest();
 	}
-	@Test
+//	@Test
 	private static void googleSearchTest() {
 		System.out.println("Test 1 Started");
 		GoogleSearchPageObject googleSearchPageObject = new GoogleSearchPageObject(driver);
@@ -31,7 +30,7 @@ public class GoogleSearchPageTest {
 		System.out.println("Test 1 Ended");
 	}
 	
-	@AfterTest
+//	@AfterTest
 	public static void tearDownTest() {
 		driver.close();
 		driver.quit();
