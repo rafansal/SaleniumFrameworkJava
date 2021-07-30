@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12234" started-at="2021-07-30T12:14:53 IST" finished-at="2021-07-30T12:15:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12234" started-at="2021-07-30T12:14:53 IST" finished-at="2021-07-30T12:15:05 IST">
+      <class name="test.GoogleSearchPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:test.GoogleSearchPageTest@9a7504c]" name="Setup" is-config="true" duration-ms="5133" started-at="2021-07-30T12:14:53 IST" finished-at="2021-07-30T12:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="googleSearchTest()[pri:0, instance:test.GoogleSearchPageTest@9a7504c]" name="googleSearchTest" duration-ms="2320" started-at="2021-07-30T12:14:58 IST" finished-at="2021-07-30T12:15:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.GoogleSearchPageTest@9a7504c]" name="tearDownTest" is-config="true" duration-ms="4752" started-at="2021-07-30T12:15:01 IST" finished-at="2021-07-30T12:15:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.GoogleSearchPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
